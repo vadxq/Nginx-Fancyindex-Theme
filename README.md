@@ -6,6 +6,10 @@ The fancyindex module can be found [here](https://github.com/aperezdc/ngx-fancyi
 
 [![made-for-nginx](https://img.shields.io/badge/Made%20for-nginx-1f425f.svg)](https://www.nginx.org/)
 
+## Install Fancyindex Module
+
+> Reference: [Nginx-Browse-Folder-Config](http://lanffy.github.io/2017/12/27/Nginx-Browse-Folder-Config)
+
 ## Usage
 
 1. Make sure you have the fancyindex module compiled with nginx, either by compiling it yourself or installing nginx via the full distribution (paquet ``nginx-extras``).
@@ -98,17 +102,24 @@ If you want to conserve a few more bytes in network transmissions enable gzip on
 
 ## Examples
 ### Showing a list of files (without search):
-![Demo #2](Nginx-Fancyindex-Theme__example2.png "Example of Nginx-Fancyindex-Theme")
+![Nginx-Fancyindex-Theme__example2](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-Nginx-Fancyindex-Theme__example2.png)
 
 ---
 
 ### Filter a list of files (with search):
-![Demo #1](Nginx-Fancyindex-Theme__example1.png "Example of Nginx-Fancyindex-Theme")
+![Nginx-Fancyindex-Theme__example1](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-Nginx-Fancyindex-Theme__example1.png)
 
 ---
 
 ### Filter a list of directories (with search):
-![Demo #3](Nginx-Fancyindex-Theme__example3.png "Example of Nginx-Fancyindex-Theme")
+![Nginx-Fancyindex-Theme__example3](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-Nginx-Fancyindex-Theme__example3.png)
+
+---
+
+### Dark and Light style for chose:
+![FancyIndex-light](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-15143568330066.jpg)
+![FancyIndex-dark](http://7xjh09.com1.z0.glb.clouddn.com/2017-12-27-15143572305213.jpg)
+
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/Nginx-Fancyindex-Theme.svg)](https://github.com/Naereen/Nginx-Fancyindex-Theme/blob/master/LICENSE)
 [MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
